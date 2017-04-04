@@ -1,0 +1,1 @@
+**view-more-less - A tiny AngularJS Directive to add view more less functionality to any list**

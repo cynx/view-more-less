@@ -1,0 +1,26 @@
+{
+  "name": "view-more-less",
+  "version": "1.0.0",
+  "description": "angularJS directive to add view less more functionality to any un-ordered list",
+  "main": "view-more-less.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "mkdir -p dist/ && babel src -d dist && uglifyjs dist/view-more-less.js dist/view-more-less.min.js"
+  },
+  "keywords": [
+    "angularjs",
+    "directive",
+    "view",
+    "less",
+    "more"
+  ],
+  "author": "echosteg.com",
+  "license": "ISC",
+  "devDependencies": {
+    "angular": "^1.6.4",
+    "babel-cli": "^6.24.0",
+    "babel-preset-env": "^1.3.2",
+    "babel-preset-latest": "^6.24.0",
+    "uglifyjs": "^2.4.10"
+  }
+}
