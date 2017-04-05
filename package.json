@@ -4,7 +4,7 @@
   "description": "angularJS directive to add view less more functionality to any un-ordered list",
   "main": "view-more-less.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "karma start karma.config.js",
     "build": "mkdir -p dist/ && babel src -d dist && uglifyjs dist/view-more-less.js dist/view-more-less.min.js"
   },
   "keywords": [
@@ -18,9 +18,14 @@
   "license": "ISC",
   "devDependencies": {
     "angular": "^1.6.4",
+    "angular-mocks": "^1.6.4",
     "babel-cli": "^6.24.0",
     "babel-preset-env": "^1.3.2",
     "babel-preset-latest": "^6.24.0",
+    "jasmine-core": "^2.5.2",
+    "karma": "^1.5.0",
+    "karma-chrome-launcher": "^2.0.0",
+    "karma-jasmine": "^1.1.0",
     "uglifyjs": "^2.4.10"
   }
 }
