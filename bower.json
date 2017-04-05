@@ -1,7 +1,7 @@
 {
   "name": "view-more-less",
   "description": "angularJS directive to add view less more functionality to any un-ordered list",
-  "main": "dist/view-more-less.min.js",
+  "main": "dist/view-more-less.js",
   "authors": [
     "echosteg.com"
   ],
