@@ -22,6 +22,19 @@ bower install view-more-less
 
 ## Examples
 
+`view-more-less` directive element should be added as last item in the `ul` you want to convert into view more / less. For example:
+
+```
+<ul>
+    <li>item1<\li>
+    <li>item2<\li>
+    ...
+    <view-more-less limit='1' show-more-text='Show More &#x25BC;' show-less-text='Show Less &#x25B2;' is-static=true></view-more-less>    
+<\ul>
+```
+
+The text to be displayed on view more and view less links can be configured by `show-more-text` and `show-less-text` attributes.
+
 #### Static List
 
 For static list `is-static` attribute should be set to true. `list` attribute is not required.
