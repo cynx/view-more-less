@@ -17,7 +17,7 @@ npm install view-more-less
 #### Bower
 
 ```
-bower install view-more-less
+bower install angular-view-more-less
 ```
 
 ## Examples
