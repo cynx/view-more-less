@@ -22,6 +22,21 @@ bower install view-more-less
 
 ## Examples
 
+#### Static List
+
+For static list `is-static` attribute should be set to true. `list` attribute is not required.
+```
+<view-more-less limit='3' show-more-text='Show More &#x25BC;' show-less-text='Show Less &#x25B2;' is-static=true></view-more-less>    
+
+```
+
+#### Deferred List
+
+For Deferred list `is-static` attribute is not required. List array should be passed to `list` attribute.
+```
+<view-more-less limit='4' show-more-text='Show More &#x25BC;' show-less-text='Show Less &#x25B2;' list='deferredList'></view-more-less>    
+
+```
 
 ## LICENSE
 
