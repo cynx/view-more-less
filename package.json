@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "angularJS directive to add view less more functionality to any un-ordered list",
   "main": "dist/view-more-less.min.js",
+  "repository": "https://github.com/cynx/view-more-less.git",
   "scripts": {
     "test": "karma start karma.config.js",
     "build": "mkdir -p dist/ && babel src -d dist --ignore *.spec.js && uglifyjs dist/view-more-less.js -o dist/view-more-less.min.js"
