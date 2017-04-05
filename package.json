@@ -1,6 +1,6 @@
 {
   "name": "view-more-less",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "angularJS directive to add view less more functionality to any un-ordered list",
   "main": "dist/view-more-less.js",
   "repository": "https://github.com/cynx/view-more-less.git",
