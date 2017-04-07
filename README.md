@@ -51,10 +51,20 @@ For Deferred list `is-static` attribute is not required. List array should be pa
 
 ```
 
+#### Styling
+
+The default styles for `li` and `btn` can be overriden by passing CSS properties as an object to `li-style` and `btn-style` attributes respectively.
+```
+$scope.btnStyle = {
+    'color':'red',
+    'font-size':'14px'
+};
+```
+And in the template,
+```
+<view-more-less btn-style='btnStyle'></view-more-less> 
+```
+
 ## LICENSE
 
 ISC
-
-
-
-
