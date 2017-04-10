@@ -1,4 +1,4 @@
-# view-more-less [![Build Status](https://travis-ci.org/cynx/view-more-less.svg?branch=master)](https://travis-ci.org/cynx/view-more-less)   [![Twitter URL](https://img.shields.io/twitter/url/http/shields.io.svg?style=social&style=flat-square)](https://twitter.com/intent/tweet?text=Check%20out%20angular-view-more-less-directive!%20https://github.com/cynx/view-more-less)
+# view-more-less [![Build Status](https://travis-ci.org/cynx/view-more-less.svg?branch=master)](https://travis-ci.org/cynx/view-more-less)   [![Twitter URL](https://img.shields.io/twitter/url/http/shields.io.svg?style=social&style=flat-square)](https://twitter.com/intent/tweet?text=Check%20out%20angular-view-more-less-directive!%20https://github.com/cynx/view-more-less)  [![npm](https://img.shields.io/npm/dt/view-more-less.svg)](https://www.npmjs.com/package/view-more-less)
 
 A tiny AngularJS Directive to add view more less functionality to any list. No jQuery or external libaries overhead.
 
